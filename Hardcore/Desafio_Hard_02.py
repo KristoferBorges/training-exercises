@@ -1,14 +1,25 @@
 import random
+import time
 
-# Desafio 0
+# Cor verde
+green = "\033[0;32m"
+yellow = "\033[0;33m"
+red = "\033[0;31m"
+normal = "\033[0m" # to come back to default 
 
 print("====== DESAFIO 0 ======\n\n");
 
 cpfCorreto = "170.673.340-20"
 
 def hackearCPF(cpf):
-    print("[!] - CPF: " + cpf)
+    print(yellow + '[!] - COMEÇANDO A PROCURA EM' + green + ' 3 SEGUNDOS')
+    time.sleep(1)
+    print(yellow + '[!] - COMEÇANDO A PROCURA EM' + green + ' 2 SEGUNDOS')
+    time.sleep(1)
+    print(yellow + '[!] - COMEÇANDO A PROCURA EM' + green + ' 1 SEGUNDOS')
+    time.sleep(1)
 
+    print(yellow + "[!] - CPF: " + green + cpf)
     tentativas = 0
     cpfFalhos = list()
     maxTentativas = 99999
@@ -39,12 +50,12 @@ def hackearCPF(cpf):
         print(f'\n[!] - TENTATIVA = [{tentativas}] - [{maxTentativas}]')
         print(f'[INFO] - {cpfDecifrado}')
         if tentativas == maxTentativas:
-            print("\n[!] - CPF não decifrado")
+            print(red +"\n[!] - CPF não decifrado")
             print(f'[!] - TENTATIVAS = [{maxTentativas}]')
             break
         elif cpfCorreto == cpfDecifrado:
-            print(f'\n[!] - CPF DECIFRADO = [{cpfDecifrado}]')
-            print(f'[!] - TENTATIVAS FEITAS = [{tentativas}]')
+            print(green + f'\n[!] - CPF DECIFRADO = [{cpfDecifrado}]')
+            print(f'[!] - TENTATIVAS FEITAS = [{tentativas}]' + normal)
             break
         else:
             cpfFalhos.append(cpfDecifrado)
@@ -57,5 +68,5 @@ def hackearCPF(cpf):
     
 
 
-cpf = input("Digite um CPF: ")
+cpf = input(green + "Digite um CPF: " + normal)
 hackearCPF(cpf)
