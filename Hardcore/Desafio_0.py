@@ -4,7 +4,7 @@ import random
 
 print("====== DESAFIO 0 ======\n\n");
 
-cpfCorreto = "087.420.528-07"
+cpfCorreto = "170.673.340-20"
 
 def hackearCPF(cpf):
     print("[!] - CPF: " + cpf)
