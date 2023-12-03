@@ -53,7 +53,6 @@ def salvamentoExcel(codigo, vencimento):
     df_final.to_excel(caminhoArquivoCodigos, index=False)
 
 
-
 def gerarCodigo(desconto, tempo):
 
     # Geração de código
@@ -68,7 +67,6 @@ def gerarCodigo(desconto, tempo):
     salvamentoExcel(codigo, dataVencimento)
     # Retorno do codigo pronto
     return codigo, dataVencimento
-
 
 
 def verificaCodigo(codigo):
@@ -154,8 +152,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
 
