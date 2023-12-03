@@ -117,24 +117,24 @@ def main():
         print(yellow + '\t[ 1 ]' + normal + ' - ' + green + 'GERAR CÓDIGOS' + normal)
         print(yellow + '\t[ 2 ]' + normal + ' - ' + green + 'AUTENTICAR CÓDIGO' + normal)
         print(yellow + '\t[ 3 ]' + normal + ' - ' + green + 'CONSULTAR PASTA DE CÓDIGOS' + normal)
-        print(yellow + '\t[ 3 ]' + normal + ' - ' + red + 'SAIR DO PROGRAMA' + normal)
+        print(yellow + '\t[ 4 ]' + normal + ' - ' + red + 'SAIR DO PROGRAMA' + normal)
 
         op = str(input('\t[ ? ] - INFORME SUA ESCOLHA: '))
         if op == '1':
             centralizar_titulo('GERADOR DE CÓDIGOS')
             desconto = int(input(yellow + '\t[ ? ] - INFORME O VALOR EM [%] PARA DESCONTO: ' + normal))
-            tempo = (int(input(yellow + '\t[ ? ] - INFORME O TEMPO EM [DIA(S)] PARA O VENCIMENTO: ' + normal)))
+            tempo = int(input(yellow + '\t[ ? ] - INFORME O TEMPO EM [DIA(S)] PARA O VENCIMENTO: ' + normal))
             quantidade = int(input(yellow + '\t[ ? ] - INFORME A QUANTIDADE EM [UNIDADES] PARA GERAR: ' + normal))
 
             for i in range(1, quantidade + 1):
                 codigo, dataVencimento = gerarCodigo(desconto, tempo)
-                sleep(0.2)
+                sleep(0.3)
                 print(green + '\n\t[ ! ] - GERANDO CÓDIGO.' + normal)
                 sleep(0.2)
                 print(green + '\t[ ! ] - GERANDO CÓDIGO..' + normal)
-                sleep(0.2)
+                sleep(0.1)
                 print(green + '\t[ ! ] - GERANDO CÓDIGO...' + normal)
-                sleep(0.2)
+                sleep(0.1)
                 print(yellow + f'\n\t[ {i}º ] - [CODIGO: {codigo}] | [VENCIMENTO: {dataVencimento}]' + normal)
 
         elif op == '2':
