@@ -7,10 +7,7 @@ normal = "\033[0m" # to come back to default
 
 print('=' * 6 + ' DESAFIO 54 ' + '=' * 6 + '\n\n')
 
-maiorPeso = 0
-menorPeso = 0
-
-for pessoa in range(1, 4 + 1):
+for pessoa in range(1, 5 + 1):
     peso = float(input(yellow + f'[?] - INFORME O PESO DA {pessoa}º PESSOA: '))
 
     if pessoa == 1:
