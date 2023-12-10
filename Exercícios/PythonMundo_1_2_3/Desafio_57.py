@@ -10,6 +10,6 @@ print('=' * 6 + ' DESAFIO 57 ' + '=' * 6 + '\n\n')
 
 sexo = str(input('[?] - INFORME SEU SEXO [M/F]')).strip().upper()
 while sexo not in "MF":
-    sexo = str(input('[!] - DIGITE APENAS [M/F]: '))
+    sexo = str(input('[!] - DIGITE APENAS [M/F]: ')).strip().upper()
 
 print('[!] - FIM DO PROGRAMA')
