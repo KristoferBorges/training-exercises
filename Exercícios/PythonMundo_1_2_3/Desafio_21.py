@@ -4,6 +4,6 @@ import pygame
 print('=' * 6 + ' DESAFIO 21 ' + '=' * 6)
 
 pygame.mixer.init()
-pygame.mixer.music.load("aranha.mp3")
+pygame.mixer.music.load("media/music/aranha.mp3")
 pygame.mixer.music.play()
 teste = input('')
