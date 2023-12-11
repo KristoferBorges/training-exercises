@@ -1,7 +1,9 @@
 ﻿class Program
 {
-    private static void MainOff(string[] args)
+    public static void Main(string[] args)
     {
-        Console.WriteLine("Bom dia familia");
+        //Desafio_01.SeuNome();
+        //Desafio_02.CapturandoNascimento();
+        Desafio_03.SomaValores();
     }
 }
