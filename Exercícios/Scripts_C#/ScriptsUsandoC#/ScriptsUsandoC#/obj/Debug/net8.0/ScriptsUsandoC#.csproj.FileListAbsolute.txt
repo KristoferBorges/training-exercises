@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\bin\Debug\net8.0\ScriptsUsandoC#.exe
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\bin\Debug\net8.0\ScriptsUsandoC#.deps.json
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\bin\Debug\net8.0\ScriptsUsandoC#.runtimeconfig.json
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\bin\Debug\net8.0\ScriptsUsandoC#.dll
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\bin\Debug\net8.0\ScriptsUsandoC#.pdb
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\obj\Debug\net8.0\ScriptsUsandoC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\obj\Debug\net8.0\ScriptsUsandoC#.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\obj\Debug\net8.0\ScriptsUsandoC#.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\obj\Debug\net8.0\ScriptsUsandoC#.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\obj\Debug\net8.0\ScriptsUsandoC#.sourcelink.json
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\obj\Debug\net8.0\ScriptsUsandoC#.dll
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\obj\Debug\net8.0\refint\ScriptsUsandoC#.dll
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\obj\Debug\net8.0\ScriptsUsandoC#.pdb
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\obj\Debug\net8.0\ScriptsUsandoC#.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\ScriptsUsandoC#\ScriptsUsandoC#\obj\Debug\net8.0\ref\ScriptsUsandoC#.dll
