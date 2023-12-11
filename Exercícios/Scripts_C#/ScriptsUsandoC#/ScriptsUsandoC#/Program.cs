@@ -1,6 +1,6 @@
 ﻿class Program
 {
-    private static void Main1(string[] args)
+    private static void MainOff(string[] args)
     {
         Console.WriteLine("Bom dia familia");
     }
