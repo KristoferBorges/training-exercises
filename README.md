@@ -1,2 +1,4 @@
-# nathy-test
-test
+# Exercícios de Python
+CursoEmVídeo
+# Exercícios de C#
+CursoEmVídeo-Adaptado
