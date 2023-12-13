@@ -30,7 +30,5 @@
                 Console.Write(e.Message);
             }
         }
-
-
     }
 }

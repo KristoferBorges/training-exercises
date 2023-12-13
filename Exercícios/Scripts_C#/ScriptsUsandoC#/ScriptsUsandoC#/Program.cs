@@ -16,6 +16,9 @@
         //Desafio_12.AplicandoDesconto();
         //Desafio_13.AumentoDeSalario();
         //Desafio_14.ConversaoDeTemperatura();
+        //Desafio_57.LendoSexo();
+        Desafio_58.AdivinheMelhorado();
+        
 
         /*int cont = 1;
         while (true)
