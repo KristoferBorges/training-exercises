@@ -16,9 +16,14 @@
         //Desafio_12.AplicandoDesconto();
         //Desafio_13.AumentoDeSalario();
         //Desafio_14.ConversaoDeTemperatura();
+        //Desafio_15.CalculoDeCobranca();
+        //Desafio_16.TruncandoNumero();
+        //Desafio_17.CalculandoHipotenusa();
+        Desafio_18.SenCosTan();
         //Desafio_57.LendoSexo();
-        Desafio_58.AdivinheMelhorado();
+        //Desafio_58.AdivinheMelhorado();
         
+
 
         /*int cont = 1;
         while (true)
