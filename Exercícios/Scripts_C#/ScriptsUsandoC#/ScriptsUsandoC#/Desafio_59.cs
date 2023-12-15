@@ -3,7 +3,7 @@ class Desafio_59
     public static void CalculadoraSimples()
     {
         bool continua = true;
-
+        float maior = 0;
         Console.Write("BEM-VINDO(A) - CALCULADORA_SIMPLES\n\n");
         Console.Write("Informe o primeiro valor: ");
         float numero1 = float.Parse(Console.ReadLine().Trim().Replace(".", ","));
@@ -17,7 +17,7 @@ class Desafio_59
             Console.WriteLine("[ 1 ] - SUM");
             Console.WriteLine("[ 2 ] - SUBTRACT");
             Console.WriteLine("[ 3 ] - MULTIPLICATION");
-            Console.WriteLine("[ 4 ] - DIVISION");
+            Console.WriteLine("[ 4 ] - MAIOR");
             Console.WriteLine("[ 5 ] - NEW NUMBERS");
             Console.WriteLine("[ 6 ] - EXIT");
 
@@ -37,7 +37,19 @@ class Desafio_59
             }
             else if (escolha == 4)
             {
-                Console.WriteLine($"\n[DIVISION]  {numero1} / {numero2} = {numero1 / numero2}");
+                if (numero1 > numero2)
+                {
+                    maior = numero1;
+                }
+                else if (numero1 == numero2)
+                {
+                    maior = numero1;
+                }
+                else
+                {
+                    maior = numero2;
+                }
+                Console.WriteLine($"\n[MAIOR]  Entre o número {numero1} e o {numero2} o maior é o número {maior}");
             }
             else if (escolha == 5)
             {
