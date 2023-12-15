@@ -22,8 +22,10 @@
         //Desafio_18.SenCosTan();
         //Desafio_57.LendoSexo();
         //Desafio_58.AdivinheMelhorado();
-        Desafio_59.CalculadoraSimples();
-        
+        //Desafio_59.CalculadoraSimples();
+        //Desafio_60.Fatorial();
+        Desafio_61.PAWhile();
+
 
 
         /*int cont = 1;
