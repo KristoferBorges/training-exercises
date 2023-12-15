@@ -19,9 +19,10 @@
         //Desafio_15.CalculoDeCobranca();
         //Desafio_16.TruncandoNumero();
         //Desafio_17.CalculandoHipotenusa();
-        Desafio_18.SenCosTan();
+        //Desafio_18.SenCosTan();
         //Desafio_57.LendoSexo();
         //Desafio_58.AdivinheMelhorado();
+        Desafio_59.CalculadoraSimples();
         
 
 

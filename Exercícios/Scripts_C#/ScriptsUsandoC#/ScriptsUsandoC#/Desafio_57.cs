@@ -2,20 +2,15 @@
 {
     public static void LendoSexo()
     {
-        while (true)
-        {
-            Console.Write("Informe seu Sexo [M/F]: ");
-            string sexo = Console.ReadLine().ToUpper();
+        Console.Write("Informe seu Sexo [M/F]: ");
+        string sexo = Console.ReadLine().ToUpper();
 
-            if (sexo == "F" || sexo == "M")
-            {
-                Console.Write("Você digitou corretamente!");
-                break;
-            }
-            else  
-            {
-                Console.Write("Você não digitou corretamente!\nTente novamente!\n\n");
-            }
+        while (sexo != "M" && sexo != "F")
+        {
+            Console.Write("Você não digitou corretamente!\nTente novamente!\n\n");
+            Console.Write("Informe seu Sexo [M/F]: ");
+            sexo = Console.ReadLine().ToUpper();
         }
-    }
+        Console.Write("Você digitou corretamente");
+    }   
 }

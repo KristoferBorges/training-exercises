@@ -1,6 +1,6 @@
 class Desafio_59
 {
-    public static void SeuNome()
+    public static void CalculadoraSimples()
     {
 
     }
