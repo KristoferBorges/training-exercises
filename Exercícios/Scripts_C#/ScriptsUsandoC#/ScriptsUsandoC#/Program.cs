@@ -2,6 +2,7 @@
 {
     public static void Main(string[] args)
     {
+        Test.testFunction();
         //Desafio_01.SeuNome();
         //Desafio_02.CapturandoNascimento();
         //Desafio_03.SomaValores();
@@ -25,7 +26,7 @@
         //Desafio_59.CalculadoraSimples();
         //Desafio_60.Fatorial();
         //Desafio_61.PAWhile();
-        Desafio_62.PAWhileUpgrade();
+        //Desafio_62.PAWhileUpgrade();
 
 
         /*int cont = 1;

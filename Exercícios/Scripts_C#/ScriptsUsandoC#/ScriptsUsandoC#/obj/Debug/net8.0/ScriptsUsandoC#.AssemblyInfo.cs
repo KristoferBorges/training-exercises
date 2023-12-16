@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScriptsUsandoC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9457fc93de879bad0db7b239dee844da4692694c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3334360304b005ab2774a1aa4d1960ff609fc3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScriptsUsandoC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScriptsUsandoC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

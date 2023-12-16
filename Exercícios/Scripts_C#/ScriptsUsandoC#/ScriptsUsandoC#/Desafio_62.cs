@@ -1,4 +1,6 @@
-﻿class Desafio_62
+﻿using System;
+
+class Desafio_62
 {
     public static void PAWhileUpgrade()
     {
@@ -19,26 +21,30 @@
             cont++;
         }
 
-        Console.Write("\nDeseja ver outros termos da mesma PA? [S/N]\n--> ");
-        escolha = char.Parse(Console.ReadLine().ToUpper().Trim());
-
-        if (escolha == 'S')
+        do
         {
-            Console.Write("Quantos termos: ");
-            termosExtra = int.Parse(Console.ReadLine());
+            Console.Write("\nDeseja ver mais termos da mesma PA? [S/N]\n--> ");
+            escolha = char.Parse(Console.ReadLine().ToUpper().Trim());
 
-            cont = 1;
-
-            while (cont <= termosExtra)
+            if (escolha == 'S')
             {
-                Console.Write($"{termo} ");
-                termo += razao;
-                cont++;
+                Console.Write("Quantos termos: ");
+                termosExtra = int.Parse(Console.ReadLine());
+
+                cont = 1;
+
+                while (cont <= termosExtra)
+                {
+                    Console.Write($"{termo} ");
+                    termo += razao;
+                    cont++;
+                }
             }
-        }
-        else
-        {
-            Console.WriteLine("FIM");
-        }
+            else
+            {
+                Console.WriteLine("FIM");
+            }
+
+        } while (escolha == 'S');
     }
 }
