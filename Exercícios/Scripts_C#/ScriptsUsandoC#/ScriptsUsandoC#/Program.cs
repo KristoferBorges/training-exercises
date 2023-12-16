@@ -24,8 +24,8 @@
         //Desafio_58.AdivinheMelhorado();
         //Desafio_59.CalculadoraSimples();
         //Desafio_60.Fatorial();
-        Desafio_61.PAWhile();
-
+        //Desafio_61.PAWhile();
+        Desafio_62.PAWhileUpgrade();
 
 
         /*int cont = 1;
