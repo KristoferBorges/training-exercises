@@ -1,16 +1,10 @@
 ﻿class Test
 {
-    public static int testFunction()
+    public static void testFunction()
     {
-        Console.WriteLine("INFORME UM NÚMERO: ");
-        int number = int.Parse(Console.ReadLine());
+        string nomeCompleto = "João Silva";
 
-        return number;
+        Console.Write(nomeCompleto.Remove(4, 1));
         
-    }
-    public static void writeNumber()
-    {
-        int valor = Test.testFunction();
-        Console.WriteLine(valor);
     }
 }

@@ -1,6 +1,4 @@
-﻿using System;
-
-class Desafio_62
+﻿class Desafio_62
 {
     public static void PAWhileUpgrade()
     {

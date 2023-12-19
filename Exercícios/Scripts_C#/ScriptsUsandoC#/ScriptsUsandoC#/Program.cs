@@ -27,6 +27,8 @@
         //Desafio_60.Fatorial();
         //Desafio_61.PAWhile();
         //Desafio_62.PAWhileUpgrade();
+        //Desafio_63.Fibonacci();
+        //Desafio_64.TratandoValores();
 
 
         /*int cont = 1;
