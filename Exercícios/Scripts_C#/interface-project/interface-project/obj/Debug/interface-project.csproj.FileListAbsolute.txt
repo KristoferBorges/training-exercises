@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\interface-project\interface-project\bin\Debug\interface-project.exe.config
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\interface-project\interface-project\bin\Debug\interface-project.exe
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\interface-project\interface-project\bin\Debug\interface-project.pdb
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\interface-project\interface-project\obj\Debug\interface-project.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\interface-project\interface-project\obj\Debug\interface_project.Form1.resources
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\interface-project\interface-project\obj\Debug\interface_project.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\interface-project\interface-project\obj\Debug\interface-project.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\interface-project\interface-project\obj\Debug\interface-project.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\interface-project\interface-project\obj\Debug\interface-project.exe
+C:\Users\Administrator\Desktop\Arquivos\nathy\nathy-test\Exercícios\Scripts_C#\interface-project\interface-project\obj\Debug\interface-project.pdb

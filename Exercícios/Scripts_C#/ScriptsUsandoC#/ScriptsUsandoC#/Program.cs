@@ -2,7 +2,7 @@
 {
     public static void Main(string[] args)
     {
-        Test.testFunction();
+        //Test.testFunction();
         //Desafio_01.SeuNome();
         //Desafio_02.CapturandoNascimento();
         //Desafio_03.SomaValores();
@@ -29,7 +29,7 @@
         //Desafio_62.PAWhileUpgrade();
         //Desafio_63.Fibonacci();
         //Desafio_64.TratandoValores();
-
+        Desafio_65.ColetandoNumeros();
 
         /*int cont = 1;
         while (true)
