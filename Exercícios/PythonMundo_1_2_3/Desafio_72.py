@@ -1,3 +1,5 @@
+from modulo import Printador
+
 def numerosPorExtenso(number):
     numeros = tuple(["Zero", "Um", "Dois", "Três", "Quatro", "Cinco", "Seis", "Sete", "Oito", "Nove", "Dez", "Onze", "Doze", "Treze", "Catorze", "Quinze", "Dezesseis", "Dezessete", "Dezoito", "Dezenove", "Vinte"])
 
@@ -6,7 +8,7 @@ def numerosPorExtenso(number):
             number = int(number)
 
             if number > 20 or number < 0:
-                print("[!] - APENAS NÚMEROS DE 0 A 20")
+                print(Printador.green + "[!] - APENAS NÚMEROS DE 0 A 20" + Printador.normal)
                 number = int(input("INFORME UM NÚMERO: "))
             else:
                 print(f"VOCÊ DIGITOU O NÚMERO [{numeros[number]}]")
@@ -23,5 +25,5 @@ def numerosPorExtenso(number):
             
    
 
-numberInput = input("INFORME UM NÚMERO: ")
+numberInput = input(Printador.green + "INFORME UM NÚMERO: " + Printador.normal)
 numerosPorExtenso(numberInput)
