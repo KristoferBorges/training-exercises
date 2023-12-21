@@ -8,7 +8,6 @@ red = "\033[0;31m"
 normal = "\033[0m" # to come back to default 
 
 cpfCorreto = "170.673.340-20"
-
 def hackearCPF(cpf):
     print(yellow + '[!] - COMEÇANDO A PROCURA EM' + green + ' 3 SEGUNDOS')
     time.sleep(1)
@@ -18,6 +17,8 @@ def hackearCPF(cpf):
     time.sleep(1)
 
     print(yellow + "[!] - CPF: " + green + cpf)
+    resetSuperaquecimento = 0
+    maxResetSuperaquecimento = 30000
     tentativas = 0
     cpfFalhos = list()
     maxTentativas = 99999
@@ -55,10 +56,19 @@ def hackearCPF(cpf):
             print(green + f'\n[!] - CPF DECIFRADO = [{cpfDecifrado}]')
             print(f'[!] - TENTATIVAS FEITAS = [{tentativas}]' + normal)
             break
+        elif resetSuperaquecimento == maxResetSuperaquecimento:
+            escolha = str(input(yellow + '[!] - RESETAR A LISTA? [S/N]: ').upper()[0])
+            if escolha == "S":
+                cpfFalhos.clear()
+                maxResetSuperaquecimento = maxResetSuperaquecimento + 30000
+            else:
+                cpfFalhos.append(cpfDecifrado)
+                maxResetSuperaquecimento = maxResetSuperaquecimento + 30000
         else:
             cpfFalhos.append(cpfDecifrado)
 
         tentativas += 1
+        resetSuperaquecimento += 1
     
     return cpfDecifrado
 
