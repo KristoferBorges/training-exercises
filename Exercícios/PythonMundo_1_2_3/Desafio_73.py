@@ -40,6 +40,8 @@ for i in range(-1, -5, -1):
     print(f"\t{cont2}º lugar [{times_de_futebol[i]}]")
     cont2 -= 1
 
+Printador.centralizador("OS TIMES EM ORDEM ALFABÉTICA")
+
 times_de_futebol = tuple(sorted(times_de_futebol))
 qntTimes = len(times_de_futebol)
 
