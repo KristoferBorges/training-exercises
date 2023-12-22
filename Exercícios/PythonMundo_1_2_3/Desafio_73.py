@@ -42,9 +42,13 @@ for i in range(-1, -5, -1):
 
 Printador.centralizador("OS TIMES EM ORDEM ALFABÉTICA")
 
-times_de_futebol = tuple(sorted(times_de_futebol))
+times_de_futebolAlfabetico = tuple(sorted(times_de_futebol))
 qntTimes = len(times_de_futebol)
 
 for time in range(1, qntTimes):
-    primeiraLetra = times_de_futebol[time][0]
-    print(f"\t{primeiraLetra} - {times_de_futebol[time]}")
+    primeiraLetra = times_de_futebolAlfabetico[time][0]
+    print(f"\t{primeiraLetra} - {times_de_futebolAlfabetico[time]}")
+
+Printador.centralizador("A POSIÇÃO DO CHAPECOENSE É:")
+indexChapecoense = times_de_futebol.index("Chapecoense") + 1
+print(f"\tA POSIÇÃO DO CHAPECOENSE É [{indexChapecoense}º]")
