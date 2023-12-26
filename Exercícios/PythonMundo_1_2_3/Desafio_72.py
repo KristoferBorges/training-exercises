@@ -1,5 +1,7 @@
 from modulo import Printador
 
+print('=' * 6 + ' DESAFIO 72 ' + '=' * 6 + '\n\n')
+
 def numerosPorExtenso(number):
     numeros = tuple(["Zero", "Um", "Dois", "Três", "Quatro", "Cinco", "Seis", "Sete", "Oito", "Nove", "Dez", "Onze", "Doze", "Treze", "Catorze", "Quinze", "Dezesseis", "Dezessete", "Dezoito", "Dezenove", "Vinte"])
 

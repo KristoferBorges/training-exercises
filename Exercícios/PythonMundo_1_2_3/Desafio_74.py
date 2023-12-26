@@ -1,6 +1,8 @@
 import random
 from modulo import Printador
 
+print('=' * 6 + ' DESAFIO 74 ' + '=' * 6 + '\n\n')
+
 Printador.centralizador("ANALISANDO TUPLA")
 numeros = tuple()
 numeros = random.sample(range(1, 10), 5)

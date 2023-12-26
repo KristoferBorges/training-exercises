@@ -1,5 +1,7 @@
 from modulo import Printador
 
+print('=' * 6 + ' DESAFIO 73 ' + '=' * 6 + '\n\n')
+
 Printador.centralizador(Printador.green + "TIMES DO CAMPEONATO BRASILEIRO DE FUTEBOL" + Printador.normal)
 
 times_de_futebol = (
