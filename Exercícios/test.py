@@ -17,12 +17,6 @@ minha_lista.count(4) # Retorna a quantidade de elementos 4 na lista
 copia_lista = minha_lista.copy() # Copia a lista
 minha_lista.reverse() # Inverte a lista"""
 
-lista = [1, 2, 3, 5, 6, 8]
+lista = [7, 9, 10, 111, 9, 15]
 
-for ind, num in enumerate(lista):
-    print(f"POSIÇÃO {ind} | VALOR {num}")
-
-lista.insert(0, 0)
-
-for ind, num in enumerate(lista):
-    print(f"POSIÇÃO {ind} | VALOR {num}")
+print(lista[5])

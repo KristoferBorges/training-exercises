@@ -33,4 +33,3 @@ listaOrdenada = lista[:]
 listaOrdenada.sort()
 print(f"\nVALORES ORDENADOS USANDO FUNÇÃO SORT({listaOrdenada})")
 print(f"VALORES ORDENADOS USANDO O PROCESSO DE LÓGICA E ANÁLISE {lista}")
-

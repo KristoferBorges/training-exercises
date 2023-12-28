@@ -17,4 +17,5 @@ while True:
     if escolha == "N":
         break
 
-print(f"SUA LSITA CONTÉM OS NÚMEROS: {lista.sort()}")
+lista.sort()
+print(f"SUA LISTA CONTÉM OS NÚMEROS: {lista}")
