@@ -1,7 +1,5 @@
 from modulo import Printador
 
-print('=' * 6 + ' DESAFIO 80 ' + '=' * 6 + '\n\n')
-
 lista = list()
 
 for i in range(0, 5 + 1):

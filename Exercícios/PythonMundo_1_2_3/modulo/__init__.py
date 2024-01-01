@@ -8,3 +8,4 @@ class Printador:
         espacos_laterais = (largura_linha - len(titulo) - 2) // 2
         linha = caractere * espacos_laterais + f' {titulo} ' + caractere * espacos_laterais
         return print('\n\n' + linha + '\n\n')
+    
