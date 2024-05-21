@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background-image {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(/Exercícios/HTML5-CSS3-JS/image/oumtto6.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
