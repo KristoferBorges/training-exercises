@@ -51,7 +51,7 @@ def coletarDadosDeVoz(language, translateLanguage, fonte, fonte_traducao):
             # Reconheça o áudio usando o Google Speech Recognition
             texto = r.recognize_google(audio, language=language)
 
-            if texto == "sair" or texto == "exit":
+            if texto == "sair" or texto == "exit" or texto == "salir" or texto == "外出する" or texto == "외출하다":
                 main()
 
             else:
@@ -92,13 +92,13 @@ def main():
     while collectionMethod not in "12":
         collectionMethod = str(input("\n[!] - DIGITE SOMENTE AS OPÇÕES DISPONÍVEIS\n[1] - Texto\n[2] - Voz\n-->"))
 
-    listenLanguage = str(input("\n[!] - QUAL IDIOMA VOCÊ FALA?\n[1] - Português\n[2] - Inglês\n--> "))
-    while listenLanguage not in "12":
-        listenLanguage = str(input("\n[!] - DIGITE SOMENTE AS OPÇÕES DISPONÍVEIS\n[1] - Português\n[2] - Inglês\n-->"))
+    listenLanguage = str(input("\n[!] - QUAL IDIOMA VOCÊ FALA?\n[1] - Português\n[2] - Inglês\n[3] - Espanhol\n[4] - Japones\n[5] - Coreano\n[6] - Árabe \n--> "))
+    while listenLanguage not in "123456":
+        listenLanguage = str(input("\n[!] - DIGITE SOMENTE AS OPÇÕES DISPONÍVEIS\n[1] - Português\n[2] - Inglês\n[3] - Espanhol\n[4] - Japones\n-->\n[5] - Coreano\n[6] - Árabe \n--> "))
 
-    translateLanguage = str(input("\n[!] - QUAL IDIOMA VOCÊ DESEJA TRADUZIR?\n[1] - Português\n[2] - Inglês\n--> "))
-    while translateLanguage not in "12":
-        translateLanguage = str(input("\n[!] - DIGITE SOMENTE AS OPÇÕES DISPONÍVEIS\n[1] - Português\n[2] - Inglês\n-->"))
+    translateLanguage = str(input("\n[!] - QUAL IDIOMA VOCÊ DESEJA TRADUZIR?\n[1] - Português\n[2] - Inglês\n[3] - Espanhol\n[4] - Japones\n[5] - Coreano\n[6] - Árabe \n--> "))
+    while translateLanguage not in "123456":
+        translateLanguage = str(input("\n[!] - DIGITE SOMENTE AS OPÇÕES DISPONÍVEIS\n[1] - Português\n[2] - Inglês\n[3] - Espanhol\n[4] - Japones\n[5] - Coreano\n[6] - Árabe \n--> "))
     
     if listenLanguage == "1":
         listenLanguage = "pt-br"
@@ -106,14 +106,43 @@ def main():
     elif listenLanguage == "2":
         listenLanguage = "en-us"
         fonte = "en"
+    elif listenLanguage == "3":
+        listenLanguage = "es"
+        fonte = "es"
+    elif listenLanguage == "4":
+        listenLanguage = "ja"
+        fonte = "ja"
+    elif listenLanguage == "5":
+        listenLanguage = "ko"
+        fonte = "ko"
+    elif listenLanguage == "6":
+        listenLanguage = "ar"
+        fonte = "ar"
 
     if translateLanguage == "1":
         translateLanguage = "pt-br"
         fonte_traducao = "pt"
+
     elif translateLanguage == "2":
         translateLanguage = "en-us"
         fonte_traducao = "en"
-        
+
+    elif translateLanguage == "3":
+        translateLanguage = "es"
+        fonte_traducao = "es"
+    
+    elif translateLanguage == "4":
+        translateLanguage = "ja"
+        fonte_traducao = "ja"
+
+    elif translateLanguage == "5":
+        translateLanguage = "ko"
+        fonte_traducao = "ko"
+    
+    elif translateLanguage == "6":
+        translateLanguage = "ar"
+        fonte_traducao = "ar"
+
     if collectionMethod == "1":
         coletarDadosDeTexto(listenLanguage, translateLanguage, fonte, fonte_traducao)
     elif collectionMethod == "2":
